@@ -450,6 +450,10 @@ h3 {
   font-weight: 650;
 }
 
+.scripture p span {
+  display: inline-block;
+}
+
 .scripture span {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -802,6 +806,14 @@ h3 {
 
   .scripture {
     padding: 82px 20px;
+  }
+
+  .scripture p {
+    font-size: clamp(23px, 7vw, 32px);
+  }
+
+  .scripture p span {
+    display: block;
   }
 }
 
