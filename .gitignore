@@ -1,0 +1,7 @@
+output/
+assets/*.png
+!assets/brand-mark-small.png
+assets/church-light.jpg
+assets/community.jpg
+assets/fellowship-ai.jpg
+assets/youtube.jpg
