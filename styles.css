@@ -221,6 +221,10 @@ h3 {
   font-size: clamp(18px, 2.2vw, 24px);
 }
 
+.hero-copy span {
+  display: block;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
