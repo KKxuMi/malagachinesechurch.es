@@ -514,15 +514,20 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.resource-text p {
-  color: var(--muted);
+.resource-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 22px;
+  object-fit: cover;
+  object-position: center;
 }
 
-.resource-text .playlist-meta {
-  margin: 8px 0 8px;
-  font-size: 15px;
-  color: var(--green);
-  font-weight: 600;
+.resource-card + .resource-card {
+  margin-top: 24px;
+}
+
+.resource-text p {
+  color: var(--muted);
 }
 
 .resource-text .playlist-disclaimer {
