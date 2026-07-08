@@ -514,16 +514,24 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.resource-card img {
-  width: 100%;
-  aspect-ratio: 4 / 3;
-  border-radius: 22px;
-  object-fit: cover;
-  object-position: center;
+.resource-text p {
+  color: var(--muted);
 }
 
-.resource-card p {
-  color: var(--muted);
+.resource-text .playlist-meta {
+  margin: 8px 0 18px;
+  font-size: 15px;
+  color: var(--green);
+  font-weight: 600;
+}
+
+.resource-video iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 22px;
+  border: none;
+  box-shadow: 0 8px 22px rgba(41, 36, 28, 0.12);
 }
 
 .notice-section {
