@@ -519,10 +519,20 @@ h3 {
 }
 
 .resource-text .playlist-meta {
-  margin: 8px 0 18px;
+  margin: 8px 0 8px;
   font-size: 15px;
   color: var(--green);
   font-weight: 600;
+}
+
+.resource-text .playlist-disclaimer {
+  margin: 0 0 18px;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+  padding: 8px 12px;
+  background: var(--soft);
+  border-radius: 10px;
 }
 
 .resource-video iframe {
